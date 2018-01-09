@@ -6,6 +6,8 @@ RUN apt-get update && \
     apt-get -y install \
         uchardet \
         software-properties-common \
+	libpcre3 \
+	libpcre3-dev \
         wget && \
     LC_ALL=C.UTF-8 add-apt-repository -y ppa:ondrej/php && \
     apt-get update && \
